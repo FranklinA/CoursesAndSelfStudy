@@ -13,3 +13,4 @@ sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
 
 así consumo menos recursos de CPU en la busqueda de archivos/carpetas/linker/etc.
 
+como tambien usar mdfind -name test.pdf
