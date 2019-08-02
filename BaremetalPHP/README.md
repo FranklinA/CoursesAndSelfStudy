@@ -14,3 +14,12 @@ sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
 así consumo menos recursos de CPU en la busqueda de archivos/carpetas/linker/etc.
 
 como tambien usar mdfind -name test.pdf
+
+consulta Mysql util:
+
+SHOW VARIABLES WHERE Variable_Name LIKE "%dir"
+select user,host from mysql.user;
+
+para actualizar la version de Mysql:
+
+mysql_upgrade --force -uroot -p
