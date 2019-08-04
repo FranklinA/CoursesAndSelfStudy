@@ -1,0 +1,10 @@
+In this module:
+
+Diferenses Kernel space / user space
+System calls , header files
+Error handling
+C and Python
+
+Coming up in the next module:
+File input/output
+Four ways to copy a file
