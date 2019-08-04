@@ -1,4 +1,4 @@
-#include<fcnt1.h> /*Symbolic constants defined here*/
+#include<fcntl.h> /*Symbolic constants defined here*/
 
 void main()/*The entry point for a C program*/
 {
