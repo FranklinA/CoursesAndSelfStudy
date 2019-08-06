@@ -1,5 +1,6 @@
 #!/bin/bash
 NumCols=100
+echo "Ingresa un numero mayor o igual a 1 (Sugerencia 10)"
 read n
 declare -a mat
 for i in {0..6299}
