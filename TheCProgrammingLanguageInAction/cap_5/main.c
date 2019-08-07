@@ -4,7 +4,7 @@
 
 int main()
 {
-	#if LEVEL>0
+	#if !defined(RUNFAST)
 	//multiply(4,5);
 	SQUARE(9);
 	#endif
