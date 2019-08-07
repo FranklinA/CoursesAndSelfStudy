@@ -1,0 +1,16 @@
+gcc sample.c
+gcc sample.c -Wall
+gcc sample.c -Wall -std=c99
+gcc sample.c -Wall -std=c99 -Wextra -pedantic
+gcc sample.c -Wall -std=c99 -Wextra -pedantic -o Sample
+gcc -S sample.c /*Create a .s file that show source assembler*/
+gcc sampleMain.c tools.c /*Create .out of our files*/
+gcc -c sampleMain.c /*Create a Part 1 for pre (.out) of our files*/
+gcc -c tools.c /*Create a Part 2 for pre (.out) of our files*/
+gcc main.o tools.o /*Create a Part 3 for pre (.out) of our files*/
+\n
+Example in Cap 5
+gcc -c main.c
+gcc -c multiply.c
+gcc main.o multiply.o
+If i change the main.c , since i just need to do gcc -c main.c and gcc main.o multiply.o. The benefict of that is better compilen time of gcc main.c multiply.c
