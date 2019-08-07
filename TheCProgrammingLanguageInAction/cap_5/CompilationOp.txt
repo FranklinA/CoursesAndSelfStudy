@@ -14,3 +14,4 @@ gcc -c main.c
 gcc -c multiply.c
 gcc main.o multiply.o
 If i change the main.c , since i just need to do gcc -c main.c and gcc main.o multiply.o. The benefict of that is better compilen time of gcc main.c multiply.c
+gcc -E -o main.i main.c /*Create main.i and open for studied*/
