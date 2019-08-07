@@ -1,0 +1,5 @@
+gcc sample.c
+gcc sample.c -Wall
+gcc sample.c -Wall -std=c99
+gcc sample.c -Wall -std=c99 -Wextra -pedantic
+gcc sample.c -Wall -std=c99 -Wextra -pedantic -o Sample
