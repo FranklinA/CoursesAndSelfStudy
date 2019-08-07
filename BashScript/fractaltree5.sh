@@ -15,7 +15,7 @@ done
 
 line2()
 {
-for j in ``seq $1 |xargs`
+for j in `seq $1 |xargs`
 do
 printf "\n"
 line $2
