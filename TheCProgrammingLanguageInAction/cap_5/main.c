@@ -1,6 +1,11 @@
-#include "multiply.h"
+#include "multiplypreprocessor.h"
+
+#define LEVEL 2
 
 int main()
 {
-	multiply(4,5);
+	#if LEVEL>0
+	//multiply(4,5);
+	SQUARE(9);
+	#endif
 }

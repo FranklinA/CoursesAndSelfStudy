@@ -5,11 +5,18 @@
 # 1 "<command line>" 1
 # 1 "<built-in>" 2
 # 1 "main.c" 2
-# 1 "./multiply.h" 1
+# 1 "./multiplypreprocessor.h" 1
+
+
 int multiply(int,int);
 # 2 "main.c" 2
 
+
+
 int main()
 {
- multiply(4,5);
+
+
+ multiply(9,9);
+
 }
