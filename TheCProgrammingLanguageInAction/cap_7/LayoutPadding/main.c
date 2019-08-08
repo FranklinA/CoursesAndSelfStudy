@@ -2,9 +2,9 @@
 
 typedef struct
 {
-	short first;// xx__   2 //short xx__ 2 
-	int second;//  xxxx   4 //short __xx 2
-	short third;// xx__   2 //int   xxxx 4
+	short first;//short first;// xx__   2 //short xx__ 2 
+	short thinrd;//int second;//  xxxx   4 //short __xx 2
+	int second;//short third;// xx__   2 //int   xxxx 4
 }Layout;
 
 int main()
