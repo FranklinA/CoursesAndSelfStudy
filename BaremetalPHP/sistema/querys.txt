@@ -1,0 +1,5 @@
+INSERT INTO categoria (nombre,condicion) VALUES ('Accesorios',1);
+UPDATE categoria SET condicion=0;
+UPDATE categoria SET condicion=1 WHERE idcategoria=3;
+DELETE FROM categoria WHERE idcategoria=3;
+
