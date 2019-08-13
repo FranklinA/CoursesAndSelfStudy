@@ -1,0 +1,11 @@
+http://stackz.ru/en/192249/how-do-i-parse-command-line-arguments-in-bash
+https://riptutorial.com/bash/example/29151/handling-named-arguments
+https://bash.programmingpedia.net/es/home
+https://riptutorial.com/es/bash/topic/300/empezando-con-bash
+https://www.ibm.com/developerworks/ssa/linux/library/l-lpic1-v3-103-7/index.html
+http://licodeli.blogspot.com/2017/03/ifs.html
+https://www.imd.guru/sistemas/bash/ifs.html
+https://unix.stackexchange.com/questions/184863/what-is-the-meaning-of-ifs-n-in-bash-scripting
+https://stackoverflow.com/questions/44014884/creating-directories-with-a-for-loop-in-bash
+https://superuser.com/questions/1422357/why-does-this-mkdir-command-using-a-variable-value-not-work
+http://pietropassarelli.com/bash_script.html
