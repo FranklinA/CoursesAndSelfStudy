@@ -1,0 +1,16 @@
+$ ls -la
+total 40
+drwxr-xr-x   7 franklinangulo  staff   238 Aug 15 12:45 .
+drwxr-xr-x  20 franklinangulo  staff   680 Aug 13 20:01 ..
+-rw-r--r--   1 franklinangulo  staff   715 Aug 15 09:29 1
+-rwxr-xr-x   1 franklinangulo  staff   693 Aug 13 23:16 Challenge1.py
+-rwxr-xr-x   1 franklinangulo  staff   681 Aug 15 08:39 TestTimingData.csv
+-rwxr-xr-x   1 franklinangulo  staff  1651 Aug 15 09:20 install.sh
+-rw-r--r--   1 franklinangulo  staff   686 Aug 15 12:45 readInDataExample.py
+
+$ python readInDataExample.py >>error_readInDataExample.txt
+
+Traceback (most recent call last):
+  File "readInDataExample.py", line 20, in <module>
+    table_data.append=([test_name,current_run_time])
+AttributeError: 'list' object attribute 'append' is read-only
