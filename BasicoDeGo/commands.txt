@@ -1,0 +1,4 @@
+go run file
+go doc 
+go fmt
+go build 

@@ -60,4 +60,21 @@ for row in timing_data[1:]:
 	avg_run_time = row[2]
 	diff_from_avg = avg_run_time - current_run_time
 	column_chart_data.append([test_name,diff_from_avg])
-	table_data.append=([test_name,current_run_time])
+	table_data.append([test_name,current_run_time])
+
+# Using Google Sheets API
+$ python -m pip install gspread
+$ python -m pip install google-api-python-client
+# Chapter 3: Selenium
+# Installing Selenium
+$ python -m pip install selenium
+
+#Quick installation -> https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver
+#Mac users with Homebrew installed: brew tap homebrew/cask && brew cask install chromedriver
+#Debian based Linux distros: sudo apt-get install chromium-chromedriver
+#Windows users with Chocolatey installed: choco install chromedriver
+
+
+
+
+
