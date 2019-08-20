@@ -10,4 +10,6 @@ print(numero+numero2)
 print(str(numero)+" "+str(numero2))
 
 tupla=(1,2,3,4)
-print(dir(tupla))
+print(dir(tupla)) # Todos los metodos disponibles para trabajar con las duplas usando dir
+
+# dir yentre parentessis el tipo de esta variable
