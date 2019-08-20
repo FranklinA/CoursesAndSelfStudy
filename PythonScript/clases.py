@@ -17,7 +17,7 @@ class Persona:
 		pass
 
 	def comer(self): # con self modifica el atributo hambre de mis mismo es de cir de Persona
-		self.hambre=0
+		self.hambre=5
 
 class Hombre(Persona):#Herencia Simple de la clase hombre se le incluye a la clase entre parentesis la clase de la que esta herendando
 	#pass
@@ -28,8 +28,13 @@ class Hombre(Persona):#Herencia Simple de la clase hombre se le incluye a la cla
 	def cambiarNombre(self,nombre):#Metodo que modifica nuestro atributo y reciben parametros.
 		self.nombre=nombre 
 
-class Mujer:
+class Mujer(Persona):
 	#pass
 	nombre="Defecto"
 	sexo="F"
 
+#Ejecutando el metodo comer de la clase Persona con la clase Hombre
+jose=Hombre()
+jose.comer()#Asi accedemos a los metodos del objeto
+
+print(jose.hambre)#Asi accedemos a los atributos del objeto
