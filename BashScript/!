@@ -1,0 +1,12 @@
+#!/bin/bash
+altura=2
+numeral="#"
+
+for linea in `seq $altura`;do
+	#echo "linea numero $linea"
+	for xcol in `seq $linea`;do
+		echo -n "$numeral"
+		numeral=$numeral$numeral
+	done
+	#echo -e "\n\c"
+done
