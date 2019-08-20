@@ -9,5 +9,14 @@ def escribirArchivo():
 	archivo.close
 
 
-escribirArchivo()
+#escribirArchivo()
 
+def leerArchivo():
+	archivo=open('datos.txt','r')
+	linea=archivo.readline()
+	while linea!="":# Linea diferente a vacio
+		print (linea)
+		linea=archivo.readline()
+	archivo.close()
+
+leerArchivo()
