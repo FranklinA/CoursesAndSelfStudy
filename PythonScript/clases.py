@@ -19,7 +19,7 @@ class Persona:
 	def comer(self): # con self modifica el atributo hambre de mis mismo es de cir de Persona
 		self.hambre=0
 
-class Hombre:
+class Hombre(Persona):#Herencia Simple de la clase hombre se le incluye a la clase entre parentesis la clase de la que esta herendando
 	#pass
 	nombre="Defecto"
 	sexo="M"
