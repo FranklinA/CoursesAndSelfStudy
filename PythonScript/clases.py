@@ -8,7 +8,11 @@ class Persona:
 	cabello=True
 	cCabello="Defecto"
 	hambre=0 # con hmabre sera 10 y sin hambre 0
-	
+
+	def __init__(self): # Constructor
+		self.nBrazos=2
+		self.nPiernas=2	
+
 	def dormir():
 		pass
 
